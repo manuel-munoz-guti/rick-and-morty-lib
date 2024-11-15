@@ -1,6 +1,6 @@
 {
   "name": "rick-and-morty-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "POC Library that exposes a provider with Rick and Morty info",
   "main": "dist/rick-and-morty-lib.umd.js",
   "module": "dist/rick-and-morty-lib.es.js",
