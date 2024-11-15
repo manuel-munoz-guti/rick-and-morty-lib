@@ -1,7 +1,15 @@
 {
-  "name": "spacex-launches-lib",
-  "private": true,
-  "version": "0.0.0",
+  "name": "rick-and-morty-lib",
+  "version": "1.0.0",
+  "description": "POC Library that exposes a provider with Rick and Morty info",
+  "main": "dist/rick-and-morty-lib.umd.js",
+  "module": "dist/rick-and-morty-lib.es.js",
+  "exports": {
+    ".": "./dist/rick-and-morty-lib.es.js"
+  },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,5 +35,9 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.7.0",
     "vite": "^5.4.8"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
   }
 }

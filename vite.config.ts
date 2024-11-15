@@ -9,7 +9,7 @@ export default defineConfig({
       entry: './src/index.ts',
       name: 'RickAndMortyLib',
       formats: ['es', 'umd'],
-      fileName: (format) => `my-library.${format}.js`
+      fileName: (format) => `rick-and-morty-lib.${format}.js`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
